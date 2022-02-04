@@ -22,6 +22,9 @@ app.post("/submit", function(req, res) {
   
   // input is valid
   if(inputIsValid) {
+    // store input data
+
+    // respond with success code
     res.status(200).render("success");
   } else {
     // input is invalid
