@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grundsteuererklärung</title>
+<style>
+body
+{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>Geben Sie bequem alle Daten für Ihre Grundsteuerberechnung zur Übermittlung an Ihr Finanzamt ein:</h1>
+<form method="post" target="/submit">
+    <label for="property_size">Größe des Grundstücks</label>
+    <input name="property_size" type="text">
+    <label for="real_estate_type">Art der Immobilie</label>
+    <input name="real_estate_type" type="text">
+    <label for="building_age">Alter des Gebäudes</label>
+    <input name="building_age" type="text">
+    <label for="building_living_space">Wohnfläche des Gebäudes</label>
+    <input name="building_living_space" type="text">
+    <label for="net_cold_rent">Nettokaltmiete (Rohertrag)</label>
+    <input name="net_cold_rent" type="text">
+    <label for="standard_land_value">Bodenrichtwerte</label>
+    <input name="standard_land_value" type="text">
+    <input type="submit" value="Absenden"> 
+</form>
+</body>
+</html>
