@@ -14,8 +14,10 @@
   "author": "Niklas Donath",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1069.0",
     "express": "^4.17.2",
     "hbs": "^4.2.0",
-    "serverless-http": "^2.7.0"
+    "serverless-http": "^2.7.0",
+    "uuid": "^8.3.2"
   }
 }
